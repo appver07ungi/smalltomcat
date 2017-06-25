@@ -101,7 +101,7 @@ RUN set -e \
 
 # war add
 
-ADD warfile/*.war /usr/share/tomcat6/webapps/
+ADD warfile/*.war /usr/local/tomcat/webapps/
 
 
 EXPOSE 8080

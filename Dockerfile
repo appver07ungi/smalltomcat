@@ -102,7 +102,8 @@ RUN set -e \
 # war add
 
 ADD warfile/*.war /usr/local/tomcat/webapps/
+ADD ssl/* /usr/local/tomcat/conf/
+ADD html/index.html /usr/local/tomcat/webapps/helloworld/
 
-
-EXPOSE 8080
+EXPOSE 8080 8443
 CMD ["catalina.sh", "run"]

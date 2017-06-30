@@ -103,8 +103,8 @@
                maxThreads="150" SSLEnabled="true" >
         <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
         <SSLHostConfig>
-            <Certificate certificateKeyFile="conf/172.27.52.112_test.key"
-                         certificateFile="conf/172.27.52.112_test.pem"
+            <Certificate certificateKeyFile="conf/Azure_test.key"
+                         certificateFile="conf/Azure_test.pem"
                          type="RSA" />
         </SSLHostConfig>
     </Connector>
